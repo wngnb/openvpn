@@ -7,3 +7,7 @@
 apt -y install git
 
 然后就可以执行auto.sh脚本了
+
+自动部署命令
+
+apt -y install git && git clone https://github.com/wngnb/openvpn && bash openvpn/auto.sh
