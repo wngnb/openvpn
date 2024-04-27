@@ -1,3 +1,3 @@
 #!/bin/bash
-chmod +x wngnb/*
-AUTO_INSTALL=y ./wngnb/openvpn-install.sh && ./wngnb/add_user.sh && ls /home/ubuntu
+chmod +x openvpn/*
+AUTO_INSTALL=y ./openvpn/openvpn-install.sh && ./openvpn/add_user.sh && ls /home/ubuntu
