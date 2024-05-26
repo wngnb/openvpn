@@ -10,4 +10,4 @@ apt -y install git
 
 自动部署命令
 
-apt -y install git && git clone https://github.com/wngnb/openvpn && bash openvpn/auto.sh
+apt -y update && apt -y install git && git clone https://github.com/wngnb/openvpn && bash openvpn/auto.sh
